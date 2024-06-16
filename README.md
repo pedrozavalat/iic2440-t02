@@ -6,7 +6,7 @@ Primer semestre, 2024.
 
 ## 1. Ejecución 👨🏻‍💻
 Para la ejecucion de la tarea se debe realizar en google Collab. Para poder utilizar el algoritmo Map Reduce sobre el grafo de twitter se debe realizar lo siguiente:
-1.  Entrar al siguiente link, y poner en el campo de usernames y password los siguientes datos:
+1.  Entrar al siguiente link [Twitter](https://demo.neo4jlabs.com:7473/browser/?dbms=neo4j://twitter@demo.neo4jlabs.com&db=twitter), y poner en el campo de usernames y password los siguientes datos:
     * Username: `twitter`
     * Password: `twitter`
 2. Una vez que la base de datos este activa, solo se requiere ejecutar el codigo de la tarea. Tener en cuenta que siempre la autentificacion para acceder a la base de datos en neo4j desde el colab es la misma: 
