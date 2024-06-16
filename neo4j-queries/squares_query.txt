@@ -1,0 +1,5 @@
+MATCH (u1:User)-[r1:INTERACTS_WITH|SIMILAR_TO]->(u2:User)-[r2:INTERACTS_WITH|SIMILAR_TO]->(u3:User)-[r3:INTERACTS_WITH|SIMILAR_TO]->(u4:User)-[r4:INTERACTS_WITH|SIMILAR_TO]->(u1)
+WHERE id(u1) <> id(u2) AND id(u1) <> id(u3) AND id(u1) <> id(u4)
+  AND id(u2) <> id(u3) AND id(u2) <> id(u4)
+  AND id(u3) <> id(u4)
+RETURN u1, u2, u3, u4
