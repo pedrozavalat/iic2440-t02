@@ -11,7 +11,7 @@ Despues de grabar el video que se encuentra en youtube me di cuenta que me falto
 
 * Ahora cree una nueva funcion que reemplaza la funcionalidad de `bgp_query`. Esta funcion se llama `get_matches`, cuyos parametros son iguales que `bgp_query`. Esta retorna todos los matches posibles segun el patron de grafo de la consulta. La idea de esta funcion es crear una matriz de tamaño AxLxA tal que cada celda de la matriz de 3 dimensiones presenta un 1 si existe la arista entre los nodos correspondientes y un 0 en caso contrario. En consecuencia, al procesar una matriz para cada subgrafo encontrado con MapReduce, verificamos que su matriz M sea igual a la matriz de la consulta.
 
-* `get_matches` solo la utiliza en las subsecciones **"MapReduce Algorithm for Squares"**. 
+* `get_matches` solo se utiliza en las subsecciones **"MapReduce Algorithm for Squares"**. 
 
 
 ## 1. Ejecución 👨🏻‍💻
