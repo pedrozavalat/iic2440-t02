@@ -4,6 +4,16 @@ Integrantes: Pedro Pablo Zavala Tejos
 
 Primer semestre, 2024. 
 
+## 0. Importante 🚨❗️
+Despues de grabar el video que se encuentra en youtube me di cuenta que me falto considerar la lista de variables que se tenian que recibir en el bullet 4 del enunciado (es decir, A, L y luego generar una matriz M de AxLxA). En consecuencia, para toda consulta en donde debiamos encontrar subgrafos de solamente 4 variables realice lo siguiente
+
+* Antes usabamos la funcion `bgp_query` que retornaba los matches mediante una iteracion lineal (esto fue lo que se mostró en el video). 
+
+* Ahora cree una nueva funcion que reemplaza la funcionalidad de `bgp_query`. Esta funcion se llama `get_matches`, cuyos parametros son iguales que `bgp_query`. Esta retorna todos los matches posibles segun el patron de grafo de la consulta. La idea de esta funcion es crear una matriz de tamaño AxLxA tal que cada celda de la matriz de 3 dimensiones presenta un 1 si existe la arista entre los nodos correspondientes y un 0 en caso contrario. En consecuencia, al procesar una matriz para cada subgrafo encontrado con MapReduce, verificamos que su matriz M sea igual a la matriz de la consulta.
+
+* `get_matches` solo la utiliza en las subsecciones **"MapReduce Algorithm for Squares"**. 
+
+
 ## 1. Ejecución 👨🏻‍💻
 Para la ejecucion de la tarea se debe realizar en google Collab. Para poder utilizar el algoritmo Map Reduce sobre el grafo de twitter se debe realizar lo siguiente:
 1.  Entrar al siguiente link [Twitter](https://demo.neo4jlabs.com:7473/browser/?dbms=neo4j://twitter@demo.neo4jlabs.com&db=twitter), y poner en el campo de usernames y password los siguientes datos:
