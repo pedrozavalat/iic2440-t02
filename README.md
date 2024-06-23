@@ -20,7 +20,7 @@ Para la ejecucion de la tarea se debe realizar en google Collab. Para poder util
 
 ## 2. Links importantes 🔗
 * Demo Twitter Database Neo4j: [Link](https://demo.neo4jlabs.com:7473/browser/?dbms=neo4j://twitter@demo.neo4jlabs.com&db=twitter)
-* Video de Youtube: [IIC2440 Tarea 2 - Map Reduce](https://youtu.be/TZD3ITaT__U)
+* Video de Youtube: [IIC2440 Tarea 2 - Map Reduce](https://www.youtube.com/watch?v=9VsPURw_1KY)
 ## 3. Carpetas y Archivos 📂
 * `imgs`: Carpeta con las imagenes de los grafos resultantes para las 2 consultas realizadas que se muestran en el video.
 * `neo4j-queries`: Carpeta con las consultas realizadas en Neo4j que permiten entregar los grafos mostrados en el video de youtube. 
